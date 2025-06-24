@@ -12,11 +12,3 @@ function multiplication(a){
 }
 const anser=multiplication(number);
 console.log(anser);
-
-
-function multiplication(a) {
-  for (let i = 1; i < 10; i++) {
-    console.log(`${a} * ${i} = ${a * i}`);
-  }
-}
-multiplication(number); 
