@@ -1,8 +1,8 @@
-import readlistSyncMoudul from 'readline-sync';
+import readlineSyncModule from 'readline-sync';
 
-const Num1 = parseInt(readlistSyncMoudul.question("첫 번째 숫자: "));
-const Oper = readlistSyncMoudul.question("연산자: ");
-const Num2 = parseInt(readlistSyncMoudul.question("두 번째 숫자: "));
+const Num1 = parseInt(readlineSyncModule.question("첫 번째 숫자: "));
+const Oper = readlineSyncModule.question("연산자: ");
+const Num2 = parseInt(readlineSyncModule.question("두 번째 숫자: "));
 
 function Calculator(a,b,c) {
     let result;

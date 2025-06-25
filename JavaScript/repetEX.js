@@ -1,6 +1,6 @@
-import readlineSyncMoudul from 'readline-sync';
+import readlineSyncModule from 'readline-sync';
 
-const number= parseInt(readlineSyncMoudul.question("입력: "));
+const number= parseInt(readlineSyncModule.question("입력: "));
 
 let line="";
 
