@@ -1,5 +1,4 @@
 import readlineSyncModule from 'readline-sync';
-import fs from 'fs';
 
 const menu = '1.작성 2.조회 3.수정 4.삭제 5.추가기능 6.종료'
 const memo = [];
@@ -21,14 +20,6 @@ while (true) {
         const memoContent = readlineSyncModule.question("내용을 입력하세요: ");
 
         memo.push([memoTitle, memoContent]);
-
-
-        fs.writeFileSync(
-            'note.json',
-            JSON.stringify(memoTitle, null, 4),
-            'utf8'
-        );
-
         console.log(memoTitle, memoContent);
 
     } else if (userSelect === 2) {
