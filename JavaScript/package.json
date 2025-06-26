@@ -1,0 +1,14 @@
+{
+  "name": "javascript",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "note.js",
+  "scripts": {
+    "start": "node note.js"
+  },
+
+  "dependencies": {
+    "crypto-js": "^4.2.0",
+    "readline-sync": "^1.4.10"
+  }
+}
