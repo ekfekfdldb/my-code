@@ -53,7 +53,7 @@ while (true) {
         //save 함수 호출
         save();
 
-        console.log(memoTitle, memoContent);
+        console.log(`작성돤 매모 :${memoTitle}, ${memoContent}`);
 
         // 조회 기능 수정
     } else if (userSelect === 2) {
