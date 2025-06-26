@@ -1,17 +1,10 @@
-# Node modules
 node_modules/
 
-# Logs
-*.log
-
-# lockfiles (선택적 무시)
+package.json
 package-lock.json
-yarn.lock
 yarn-error.json
+yarn.lock
 
-# OS/system files
-.DS_Store
-Thumbs.db
+*.md
 
-# VS Code settings (선택)
-.vscode/
+*.log
