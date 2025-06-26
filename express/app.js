@@ -11,7 +11,7 @@ app.use(express.urlencoded({extended: true}));
 /**
 * 루트 경로('/')에 대한 GET 요청을 처리
 * 요청이 오면 'Hello World!' 문자열을 응답
-*//
+*/
 app.get('/', (request, response) => {
 	// 응답.보내다('Hello World!');
   response.send('Hello World!');
